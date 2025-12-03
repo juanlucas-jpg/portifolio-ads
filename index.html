@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Dev Júnior</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">DevPortfólio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero-section d-flex align-items-center text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Olá, eu Seja Bem-Vindo!</h1>
+            <p class="lead">Transformando ideias em código e soluções digitais.</p>
+            <a href="#contato" class="btn btn-primary btn-lg mt-3">Entre em Contato</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="img/Minhafoto.JPG" alt="Foto de Perfil" class="img-fluid rounded-circle shadow profile-img">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-3">Sobre Mim</h2>
+                    <p>Sou um estudante apaixonado por tecnologia e Análise e Desenvolvimento de Sistemas. Meu objetivo é criar aplicações web intuitivas e eficientes.</p>
+                    <p>Tenho conhecimentos em HTML, CSS, Bootstrap e estou aprendendo JavaScript. Este site é um exemplo prático dos meus estudos.</p>
+                    <span class="badge bg-secondary">HTML5</span>
+                    <span class="badge bg-secondary">CSS3</span>
+                    <span class="badge bg-primary">Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Meus Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Landing Page _ Autoridade Criativa.jpg" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing Page</h5>
+                            <p class="card-text">Uma página de vendas responsiva criada para um evento fictício de tecnologia.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Blogpessoal.jpg" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Cadastro</h5>
+                            <p class="card-text">Interface de cadastro de usuários utilizando formulários estilizados com Bootstrap.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Landing Page _ Joel Jota.jpg" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Pessoal</h5>
+                            <p class="card-text">Layout de blog com barra lateral e grid de postagens para compartilhar conhecimento.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-5">
+                            <h2 class="text-center mb-4">Fale Comigo</h2>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem..."></textarea>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2023 DevPortfólio. Todos os direitos reservados.</p>
+            <small>Desenvolvido para a disciplina de Linguagem de Marcação.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

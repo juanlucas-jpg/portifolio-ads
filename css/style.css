@@ -1,0 +1,56 @@
+/* 1. Personalização da Hero Section (Fundo e Altura) */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ocupa a altura total da tela */
+    margin-top: -56px; /* Compensa a altura da navbar fixa */
+}
+
+/* 2. Personalização de Títulos (Fontes e Cores) */
+h2 {
+    color: #2c3e50;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* Adiciona um traço abaixo dos títulos h2 */
+h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #0d6efd; /* Azul do Bootstrap */
+    margin: 10px auto 0;
+}
+
+/* 3. Personalização da Imagem de Perfil */
+.profile-img {
+    border: 5px solid #0d6efd;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+/* 4. Efeito de Hover na Imagem */
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* 5. Personalização dos Cards de Projeto (Hover e Transição) */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none; /* Remove a borda padrão do bootstrap */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* O card "sobe" ao passar o mouse */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+/* Ajuste de espaçamento extra para mobile */
+section {
+    padding-top: 60px; /* Garante que o menu fixo não cubra o título ao clicar no link */
+}
