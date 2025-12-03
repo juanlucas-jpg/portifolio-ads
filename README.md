@@ -14,4 +14,4 @@ Este projeto é uma landing page de portfólio criada como atividade avaliativa 
 * Bootstrap 5
 
 ## 🔗 Link do Projeto Publicado
-Acesse o site online aqui: [COLE AQUI O LINK DO GITHUB PAGES DEPOIS DE PUBLICAR]
+Acesse o site online aqui: https://juanlucas-jpg.github.io/portifolio-ads/
